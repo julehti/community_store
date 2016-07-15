@@ -1,0 +1,2331 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: community_store 3.0dev9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-11 17:23+0000\n"
+"MIME-Version: 1.0\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Juhani Lehtiranta <julehti@netscape.net>\n"
+"Language-Team: Juhani Lehtiranta <julehti@netscape.net>\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: packages/community_store/controller.php:23
+msgid "Add a Store to your Site"
+msgstr "Lisää Store sivustoosi"
+
+#: packages/community_store/controller.php:28
+msgid "Community Store"
+msgstr "Community Store"
+
+#: packages/community_store/blocks/community_product/controller.php:23
+msgid "Add a Product to the Page"
+msgstr "Lisää tuote sivulle"
+
+#: packages/community_store/blocks/community_product/controller.php:28
+msgid "Product"
+msgstr "Tuote"
+
+#: packages/community_store/blocks/community_product/controller.php:51
+#: packages/community_store/blocks/community_product_list/controller.php:123
+#: packages/community_store/blocks/community_utility_links/controller.php:46
+msgid "Quantity must be greater than zero"
+msgstr "Määrän on oltava enemmän kuin nolla"
+
+#: packages/community_store/blocks/community_product/form.php:51
+msgid "Product to include"
+msgstr "Lisättävä tuote"
+
+#: packages/community_store/blocks/community_product/form.php:54
+msgid "Choose a Product to show"
+msgstr "Valitse näytettävä tuote"
+
+#: packages/community_store/blocks/community_product/form.php:68
+msgid "Selected Product:"
+msgstr "Valittu tuote:"
+
+#: packages/community_store/blocks/community_product/form.php:74
+msgid "What would you like to show"
+msgstr "Mitä haluaisit näyttää"
+
+#: packages/community_store/blocks/community_product/form.php:81
+msgid "Show Product Name"
+msgstr "Näytä tuotteen nimi"
+
+#: packages/community_store/blocks/community_product/form.php:87
+msgid "Show Short Description"
+msgstr "Näytä tuotteen kuvaus"
+
+#: packages/community_store/blocks/community_product/form.php:93
+msgid "Show Product Details"
+msgstr "Näytä tuotteen tiedot"
+
+#: packages/community_store/blocks/community_product/form.php:99
+msgid "Show Price"
+msgstr "Näytä hinta"
+
+#: packages/community_store/blocks/community_product/form.php:105
+msgid "Show Weight"
+msgstr "Näytä paino"
+
+#: packages/community_store/blocks/community_product/form.php:113
+msgid "Show Product Image"
+msgstr "Näytä tuotteen kuva"
+
+#: packages/community_store/blocks/community_product/form.php:119
+msgid "Show \"Add to Cart\" Button"
+msgstr "Näytä \"Lisää ostoskoriin\" -painike"
+
+#: packages/community_store/blocks/community_product/form.php:125
+msgid "Show if it's featured"
+msgstr "Näytä, onko tuote korostettu"
+
+#: packages/community_store/blocks/community_product/form.php:131
+msgid "Show Group Product is in"
+msgstr "Näytä ryhmä jossa tuote on"
+
+#: packages/community_store/blocks/community_product/form.php:137
+msgid "Show Dimensions"
+msgstr "Näytä mitat"
+
+#: packages/community_store/blocks/community_product/form.php:145
+msgid "Add to Cart Button Text"
+msgstr "Lisää koriin -painike"
+
+#: packages/community_store/blocks/community_product/view.php:51
+msgid "Featured Item"
+msgstr "Korostettu tuote"
+
+#: packages/community_store/blocks/community_product/view.php:64
+msgid "On Sale: "
+msgstr "Tarjouksessa:"
+
+#: packages/community_store/blocks/community_product/view.php:81
+msgid "Dimensions"
+msgstr "Mitat"
+
+#: packages/community_store/blocks/community_product/view.php:89
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:16
+#: packages/community_store/single_pages/dashboard/store/products.php:267
+msgid "Weight"
+msgstr "Paino"
+
+#: packages/community_store/blocks/community_product/view.php:98
+#: packages/community_store/elements/order_slip.php:55
+#: packages/community_store/elements/product_modal.php:20
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:16
+#: packages/community_store/single_pages/dashboard/store/orders.php:61
+msgid "Quantity"
+msgstr "Määrä"
+
+#: packages/community_store/blocks/community_product/view.php:128
+#: packages/community_store/blocks/community_product_list/view.php:83
+#: packages/community_store/elements/product_modal.php:45
+msgid "Add to Cart"
+msgstr "Lisää ostoskoriin"
+
+#: packages/community_store/blocks/community_product/view.php:130
+#: packages/community_store/blocks/community_product_list/view.php:85
+#: packages/community_store/elements/product_modal.php:47
+msgid "Out of Stock"
+msgstr "Loppu varastosta"
+
+#: packages/community_store/blocks/community_product/view.php:138
+msgid "Product Details"
+msgstr "Tuotteen tiedot"
+
+#: packages/community_store/blocks/community_product/view.php:154
+msgid "We can't seem to find this product at the moment"
+msgstr "Tuotetta ei löydy tällä hetkellä"
+
+#: packages/community_store/blocks/community_product_list/controller.php:24
+msgid "Add a Product List for Community Store"
+msgstr "Lisää tuotelista kauppaan"
+
+#: packages/community_store/blocks/community_product_list/controller.php:29
+msgid "Product List"
+msgstr "Tuotelista"
+
+#: packages/community_store/blocks/community_product_list/controller.php:164
+msgid "Max Products must be at least 1"
+msgstr "Tuotteiden enimmäismäärä on oltava vähintään 1"
+
+#: packages/community_store/blocks/community_product_list/controller.php:168
+msgid "A page must be selected"
+msgstr "Sivu pitää valita"
+
+#: packages/community_store/blocks/community_product_list/controller.php:172
+msgid "Max Product must be a whole number"
+msgstr "Tuotteen määrän on oltava kokonaisnumero"
+
+#: packages/community_store/blocks/community_product_list/form.php:3
+msgid "Product Arrangement"
+msgstr "Tuotteiden järjestys"
+
+#: packages/community_store/blocks/community_product_list/form.php:12
+msgid "List Products"
+msgstr "Listaa tuotteet"
+
+#: packages/community_store/blocks/community_product_list/form.php:14
+msgid "All"
+msgstr "Kaikki"
+
+#: packages/community_store/blocks/community_product_list/form.php:15
+msgid "Under current page"
+msgstr "Nykyisellä sivulla"
+
+#: packages/community_store/blocks/community_product_list/form.php:16
+msgid "Under current page and child pages"
+msgstr "Nykyisellä sivulla ja sen tytärsivuilla"
+
+#: packages/community_store/blocks/community_product_list/form.php:17
+msgid "Under a specified page"
+msgstr "Määritellyllä sivulla"
+
+#: packages/community_store/blocks/community_product_list/form.php:18
+msgid "Under a specified page and child pages"
+msgstr "Määritellyllä sivulla ja tytärsivuilla"
+
+#: packages/community_store/blocks/community_product_list/form.php:33
+msgid "Sort Order"
+msgstr "Lajittelujärjestys"
+
+#: packages/community_store/blocks/community_product_list/form.php:34
+msgid "Alphabetical"
+msgstr "Aakkosellinen"
+
+#: packages/community_store/blocks/community_product_list/form.php:34
+msgid "Recently Added"
+msgstr "Viimeksi lisätty"
+
+#: packages/community_store/blocks/community_product_list/form.php:34
+msgid "Most Popular"
+msgstr "Suosituin"
+
+#: packages/community_store/blocks/community_product_list/form.php:43
+msgid "Filter by Groups"
+msgstr "Suodata ryhmittäin"
+
+#: packages/community_store/blocks/community_product_list/form.php:59
+msgid "Matching"
+msgstr "Koskien"
+
+#: packages/community_store/blocks/community_product_list/form.php:60
+msgid "All groups listed"
+msgstr "Kaikki luetellut ryhmät"
+
+#: packages/community_store/blocks/community_product_list/form.php:60
+msgid "Any group listed"
+msgstr "Joku luetelluista ryhmistä"
+
+#: packages/community_store/blocks/community_product_list/form.php:67
+msgid "Pagination"
+msgstr "Sivutus"
+
+#: packages/community_store/blocks/community_product_list/form.php:71
+msgid "Products per Row"
+msgstr "Tuotteita per rivi"
+
+#: packages/community_store/blocks/community_product_list/form.php:77
+msgid "Max Number of Products"
+msgstr "Tuotteiden maksimimäärä"
+
+#: packages/community_store/blocks/community_product_list/form.php:85
+msgid "Show Pagination"
+msgstr "Näytä sivutus"
+
+#: packages/community_store/blocks/community_product_list/form.php:89
+msgid "Display Options"
+msgstr "Näyttövaihtoehdot"
+
+#: packages/community_store/blocks/community_product_list/form.php:94
+msgid "Show Out of Stock Products"
+msgstr "Näytä loppuneet tuotteet"
+
+#: packages/community_store/blocks/community_product_list/form.php:98
+msgid "Show Featured"
+msgstr "Näytä korostetut"
+
+#: packages/community_store/blocks/community_product_list/form.php:103
+msgid "Show Both Featured &amp; Non-featured"
+msgstr "Näytä korostetut ja ei-korostetut"
+
+#: packages/community_store/blocks/community_product_list/form.php:109
+msgid "Featured Only"
+msgstr "Vain korostetut"
+
+#: packages/community_store/blocks/community_product_list/form.php:115
+msgid "Non-Featured Only"
+msgstr "Vain ei-korostetut"
+
+#: packages/community_store/blocks/community_product_list/form.php:119
+msgid "Show:"
+msgstr "Näytä:"
+
+#: packages/community_store/blocks/community_product_list/form.php:123
+msgid "Description"
+msgstr "Kuvaus"
+
+#: packages/community_store/blocks/community_product_list/form.php:132
+msgid "Quickview Link (Modal Window)"
+msgstr "Pikakatselulinkki (modaalinen ikkuna)"
+
+#: packages/community_store/blocks/community_product_list/form.php:138
+msgid "Page Link"
+msgstr "Sivulinkki"
+
+#: packages/community_store/blocks/community_product_list/form.php:144
+msgid "Add to Cart Button"
+msgstr "Lisää ostoskoriin -painike"
+
+#: packages/community_store/blocks/community_product_list/view.php:27
+msgid "Quick View"
+msgstr "Pikakatselu"
+
+#: packages/community_store/blocks/community_product_list/view.php:51
+msgid "More Details"
+msgstr "Lisää tietoja"
+
+#: packages/community_store/blocks/community_product_list/view.php:113
+msgid "No Products Available"
+msgstr "Tuotteita ei saatavilla"
+
+#: packages/community_store/blocks/community_utility_links/controller.php:22
+msgid "Add your cart links for Community Store"
+msgstr "Lisää ostoskorisi linkit kauppaan"
+
+#: packages/community_store/blocks/community_utility_links/controller.php:27
+msgid "Utility Links"
+msgstr "Apulinkit"
+
+#: packages/community_store/blocks/community_utility_links/controller.php:64
+msgid "Cart Label must be set"
+msgstr "Korin otsikko pitää määritellä"
+
+#: packages/community_store/blocks/community_utility_links/controller.php:67
+msgid "Cart Link Label exceeds 255 characters"
+msgstr "Korin linkin otsikko on yli 255 merkkiä"
+
+#: packages/community_store/blocks/community_utility_links/controller.php:70
+msgid "Cart Items Label exceeds 255 characters"
+msgstr "Korin kohteiden otsikko on yli 255 merkkiä"
+
+#: packages/community_store/blocks/community_utility_links/form.php:6
+msgid "Show Amount of Items in Cart"
+msgstr "Näytä korissa olevien tuotteiden määrä"
+
+#: packages/community_store/blocks/community_utility_links/form.php:13
+msgid "Show Cart SubTotal"
+msgstr "Näytä korin välisumma"
+
+#: packages/community_store/blocks/community_utility_links/form.php:20
+msgid "Show Sign-in Link"
+msgstr "Näytä kirjautumislinkki"
+
+#: packages/community_store/blocks/community_utility_links/form.php:27
+msgid "Show Greeting  (Welcome back, FirstName)"
+msgstr "Näytä tervehdys (Tervetuloa takaisin, Etunimi)"
+
+#: packages/community_store/blocks/community_utility_links/form.php:34
+msgid "Show Checkout Link"
+msgstr "Näytä uloskirjoituksen linkki"
+
+#: packages/community_store/blocks/community_utility_links/form.php:41
+msgid "Link to popup cart instead of cart page"
+msgstr "Linkki pudotusvalikkokoriin korin sivun asemesta"
+
+#: packages/community_store/blocks/community_utility_links/form.php:46
+msgid "Cart Link Label"
+msgstr "Ostoskorin linkin otsikko"
+
+#: packages/community_store/blocks/community_utility_links/form.php:47
+msgid "View Cart"
+msgstr "Näytä ostoskori"
+
+#: packages/community_store/blocks/community_utility_links/form.php:50
+msgid "Cart Items Label"
+msgstr "Korin kohteiden otsikko"
+
+#: packages/community_store/blocks/community_utility_links/form.php:51
+msgid "Items in Cart"
+msgstr "Tuotteita ostoskorissa"
+
+#: packages/community_store/blocks/community_utility_links/view.php:6
+#: packages/community_store/single_pages/checkout.php:30
+msgid "Sign In"
+msgstr "Kirjaudu sisään"
+
+#: packages/community_store/blocks/community_utility_links/view.php:12
+msgid "Welcome back"
+msgstr "Tervetuloa takaisin"
+
+#: packages/community_store/blocks/community_utility_links/view.php:15
+msgid "Welcome back, "
+msgstr "Tervetuloa takaisin,"
+
+#: packages/community_store/blocks/community_utility_links/view.php:35
+#: packages/community_store/elements/cart_modal.php:116
+#: packages/community_store/single_pages/cart.php:143
+#: packages/community_store/single_pages/checkout.php:10
+#: packages/community_store/single_pages/dashboard/store/settings.php:23
+msgid "Checkout"
+msgstr "Uloskirjoittautuminen"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products/attributes.php:37
+msgid "Attribute Deleted."
+msgstr "Ominaisuus poistettu."
+
+#: packages/community_store/controllers/single_page/dashboard/store/products/attributes.php:42
+msgid "Attribute Created."
+msgstr "Ominaisuus luotu."
+
+#: packages/community_store/controllers/single_page/dashboard/store/products/attributes.php:47
+msgid "Attribute Updated."
+msgstr "Ominaisuus päivitettty."
+
+#: packages/community_store/controllers/single_page/dashboard/store/products/attributes.php:56
+msgid "Invalid attribute ID."
+msgstr "Viallinen määritteen ID."
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:22
+msgid "Add Shipping Method"
+msgstr "Lisää toimitustapa"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:69
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:25
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:28
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:111
+#: packages/community_store/single_pages/dashboard/store/discounts.php:278
+#: packages/community_store/single_pages/dashboard/store/products/attributes.php:36
+msgid "Add"
+msgstr "Lisää"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:29
+msgid "Edit Shipping Method"
+msgstr "Muokkaa toimitustapaa"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:97
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:34
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:35
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:117
+#: packages/community_store/elements/cart_modal.php:73
+#: packages/community_store/single_pages/cart.php:71
+#: packages/community_store/single_pages/dashboard/store/discounts.php:278
+#: packages/community_store/single_pages/dashboard/store/orders.php:175
+msgid "Update"
+msgstr "Päivitä"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:45
+msgid "Successfully added a new Shipping Method"
+msgstr "Onnistuneesti lisätty uusi toimitustapa"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:50
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:58
+msgid "Successfully updated"
+msgstr "Onnistuneesti päivitetty"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:55
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:63
+msgid "Successfully removed"
+msgstr "Onnistuneesti poistettu"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:94
+msgid "Method Name must be set"
+msgstr "Toimitustavan nimi pitää määritellä"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:97
+msgid "Minimum Amount must be numeric"
+msgstr "Minimimäärän pitää olla numeerinen"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/shipping.php:100
+msgid "Maximum Amount must be numeric"
+msgstr "Maksimimäärän pitää olla numeerinen"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:27
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:105
+msgid "Add Tax Rate"
+msgstr "Lisää verokanta"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:34
+msgid "Edit Tax Rate"
+msgstr "Muokkaa verokantaa"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:53
+msgid "Successfully added a new Tax Rate"
+msgstr "Onnistuneesti lisätty uusi verokanta"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:96
+msgid "You need a label for this Tax Rate"
+msgstr "Sinun pitää asettaa otsikko tälle verokannalle"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:100
+msgid "Tax Rate must be a number"
+msgstr "verokannan pitää olla numero"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:103
+msgid "You need to enter a tax rate"
+msgstr "Sinun pitää asettaa verokanta"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:151
+msgid "You need a name for this Tax Class"
+msgstr "Sinun pitää nimetä tämä veroluokka"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:155
+msgid "You can only have one tax rate with your current tax settings"
+msgstr "Sinulla voi olla vain yksi veroprosentti nykyisillä veroasetuksilla"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:169
+msgid "Tax Class removed"
+msgstr "Veroluokka poistettu"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:174
+msgid "Tax Class Added"
+msgstr "Veroluokka lisätty"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings/tax.php:180
+msgid "Tax Class updated"
+msgstr "Veroluokka päivitetty"
+
+#: packages/community_store/controllers/single_page/dashboard/store/discounts.php:23
+msgid "Discount Rules"
+msgstr "Alennussäännöt"
+
+#: packages/community_store/controllers/single_page/dashboard/store/discounts.php:27
+#: packages/community_store/single_pages/dashboard/store/discounts.php:20
+msgid "Add Discount Rule"
+msgstr "Lisää alennussääntö"
+
+#: packages/community_store/controllers/single_page/dashboard/store/discounts.php:35
+#: packages/community_store/single_pages/dashboard/store/discounts.php:341
+msgid "Edit Discount Rule"
+msgstr "Muokkaa alennussääntöä"
+
+#: packages/community_store/controllers/single_page/dashboard/store/discounts.php:46
+msgid "Codes for discount rule"
+msgstr "Alennussäännön koodit"
+
+#: packages/community_store/controllers/single_page/dashboard/store/orders.php:51
+msgid "Order Removed"
+msgstr "Tilaus poistettu"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:53
+msgid "Product Added"
+msgstr "Tuote lisätty"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:59
+msgid "Product Updated"
+msgstr "Tuote päivitetty"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:63
+msgid "Product Removed"
+msgstr "Tuote poistettu"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:91
+#: packages/community_store/single_pages/dashboard/store/products.php:762
+msgid "Add Product"
+msgstr "Lisää tuote"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:133
+msgid "Edit Product"
+msgstr "Muokkaa tuotetta"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:210
+msgid "You must have a Product Name"
+msgstr "Sinun pitää antaa tuotteen nimi"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:213
+msgid "Keep the Product name under 255 Characters"
+msgstr "Tuotteen nimessä oltava alle 255 merkkiä"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:216
+msgid "The Price must be set, and numeric"
+msgstr "Hinta pitää syöttää, ja numeroin"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:219
+msgid "The Quantity must be set, and numeric"
+msgstr "Määrä pitää syöttää ja numeroin"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:222
+msgid "The Product Width must be a number"
+msgstr "Tuotteen leveyyden on oltava luku"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:225
+msgid "The Product Height must be a number"
+msgstr "Tuotteen korkeuden on oltava luku"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:228
+msgid "The Product Length must be a number"
+msgstr "Tuotteen pituuden on oltava luku"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:231
+msgid "The Product Weight must be a number"
+msgstr "Tuotteen painon on oltava luku"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:273
+msgid "You did not enter anything for the Group Name"
+msgstr "Olet jättänyt ryhmän nimen tyhjäksi"
+
+#: packages/community_store/controllers/single_page/dashboard/store/products.php:276
+msgid "Keep the Group Name under 100 Characters"
+msgstr "Ryhmän nimen on oltava alle 100 merkkiä"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings.php:45
+msgid "Settings Saved"
+msgstr "Asetukset tallennettu"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings.php:137
+msgid "You must set a currency symbol"
+msgstr "Valuutan symboli määritettävä"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings.php:141
+msgid "Tax Rate must be set, and a number"
+msgstr "Verokanta määritettävä ja numeroin"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings.php:146
+msgid "Shipping Base Rate must be set, and a number"
+msgstr "Lähetyskulut asetettava ja numeroin"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings.php:149
+msgid "Shipping Base Rate must be set, and a number (even if just zero)"
+msgstr "Lähetyskulut lisättävä ja numeroin (vaikka olisi nolla)"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings.php:159
+msgid "At least one payment method must be enabled"
+msgstr "Vähintään yksi maksutapa täytyy aktivoida"
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings.php:168
+msgid "You must have at least one Order Status."
+msgstr "Pitää olla ainakin yksi tilaustila."
+
+#: packages/community_store/controllers/single_page/dashboard/store/settings.php:176
+msgid "The %s Tax Class can't contain more than 1 Tax Rate if you change how the taxes are calculated"
+msgstr "Veroluokka %s ei voi sisältää enempää kuin yhhedn verokannan, jos muutat verojen laskentatapaa"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:7
+msgid "Credit Card Number"
+msgstr "Luottokortin numero"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:16
+msgid "Month"
+msgstr "Kuukausi"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:18
+msgid "Jan"
+msgstr "Tammi"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:19
+msgid "Feb"
+msgstr "Helmi"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:20
+msgid "Mar"
+msgstr "Maalis"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:21
+msgid "Apr"
+msgstr "Huhti"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:22
+msgid "May"
+msgstr "Touko"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:23
+msgid "Jun"
+msgstr "Kesä"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:24
+msgid "Jul"
+msgstr "Heinä"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:25
+msgid "Aug"
+msgstr "Elo"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:26
+msgid "Sep"
+msgstr "Syys"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:27
+msgid "Oct"
+msgstr "Loka"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:28
+msgid "Nov"
+msgstr "Marras"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:29
+msgid "Dec"
+msgstr "Joulu"
+
+#: packages/community_store/elements/auth_net/checkout_form.php:33
+msgid "Year"
+msgstr "Vuosi"
+
+#: packages/community_store/elements/auth_net/dashboard_form.php:6
+#: packages/community_store/elements/paypal_standard/dashboard_form.php:6
+msgid "Test Mode"
+msgstr "Testimoodi"
+
+#: packages/community_store/elements/auth_net/dashboard_form.php:11
+msgid "Auth.net Login ID"
+msgstr "Auth.net kirjautumis-ID"
+
+#: packages/community_store/elements/auth_net/dashboard_form.php:16
+msgid "Auth.net Transaction Key"
+msgstr "Auth.net siirtoavain"
+
+#: packages/community_store/elements/invoice/checkout_form.php:5
+msgid "An invoice will be sent to you upon ordering"
+msgstr "Lasku lähetetään tilauksen yhteydessä"
+
+#: packages/community_store/elements/invoice/dashboard_form.php:7
+msgid "Minimum Order Value"
+msgstr "Tilauksen vähimmäisarvo"
+
+#: packages/community_store/elements/invoice/dashboard_form.php:12
+msgid "Maximum Order Value"
+msgstr "Tilauksen enimmäisarvo"
+
+#: packages/community_store/elements/paypal_standard/checkout_form.php:5
+msgid "Click \"Complete Order\" to Proceed to the PayPal Website."
+msgstr "Klikka \"Toteuta tilaus\" siirtyäksesi PayPalin nettisivulle."
+
+#: packages/community_store/elements/paypal_standard/dashboard_form.php:10
+#: packages/community_store/single_pages/dashboard/store/settings.php:17
+msgid "Currency"
+msgstr "Valuutta"
+
+#: packages/community_store/elements/paypal_standard/dashboard_form.php:14
+msgid "PayPal E-mail"
+msgstr "PayPal sähköposti"
+
+#: packages/community_store/elements/paypal_standard/redirect_form.php:19
+msgid "Order from %s"
+msgstr "Tilaus täältä:  %s"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:7
+msgid "Base Price"
+msgstr "Perushinta"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:15
+msgid "Rate Based On"
+msgstr "Kurssi perustuu:"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:21
+msgid "Price per Item"
+msgstr "Hinta per tuote"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:25
+msgid "Price per "
+msgstr "Hinta per"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:36
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:5
+msgid "Which Countries does this Apply to?"
+msgstr "Missä maissa tätä sovelletaan?"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:37
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:6
+msgid "All Countries"
+msgstr "Kaikki maat"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:37
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:6
+msgid "Certain Countries"
+msgstr "Tietyt maat"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:42
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:11
+msgid "If Certain Countries, which?"
+msgstr "Jos tietyt maat niin mitkä?"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:55
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:24
+msgid "Minimum Purchase Amount for this rate to apply"
+msgstr "Ostossumman vähimmäisraja tälle hinnalle"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:61
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:30
+msgid "Maximum Purchase Amount for this rate to apply"
+msgstr "Ostossumman enimmäisraja tälle hinnalle"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:63
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:84
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:32
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:53
+msgid "Leave at 0 for no maximum"
+msgstr "Jätä arvo 0:ksi, jos et halua ylärajaa"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:70
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:39
+msgid "Minimum Weight Amount for this rate to apply"
+msgstr "Vähimmäispaino tälle hinnalle"
+
+#: packages/community_store/elements/shipping_method_types/flat_rate/dashboard_form.php:79
+#: packages/community_store/elements/shipping_method_types/free_shipping/dashboard_form.php:48
+msgid "Maximum Weight Amount for this rate to apply"
+msgstr "Enimmäispaino tälle hinnalle"
+
+#: packages/community_store/elements/cart_list.php:36
+#: packages/community_store/elements/cart_modal.php:67
+#: packages/community_store/single_pages/cart.php:69
+msgid "Quantity:"
+msgstr "Määrä:"
+
+#: packages/community_store/elements/cart_modal.php:12
+msgid "has been added to your cart"
+msgstr "on lisätty ostoskoriisi"
+
+#: packages/community_store/elements/cart_modal.php:16
+#: packages/community_store/single_pages/cart.php:12
+msgid "Your cart has been updated"
+msgstr "Ostoskorisi on päivitetty"
+
+#: packages/community_store/elements/cart_modal.php:20
+#: packages/community_store/single_pages/cart.php:16
+msgid "Your cart has been cleared"
+msgstr "Ostoskorisi on tyhjennetty"
+
+#: packages/community_store/elements/cart_modal.php:24
+#: packages/community_store/single_pages/cart.php:20
+msgid "Item removed"
+msgstr "Tuote poistettu"
+
+#: packages/community_store/elements/cart_modal.php:28
+#: packages/community_store/single_pages/cart.php:24
+msgid "Due to stock levels your quantity has been limited"
+msgstr "Varastotilanteen takia ostosmäärääsi on vähennetty"
+
+#: packages/community_store/elements/cart_modal.php:33
+#: packages/community_store/single_pages/cart.php:8
+msgid "Shopping Cart"
+msgstr "Ostoskori"
+
+#: packages/community_store/elements/cart_modal.php:75
+#: packages/community_store/single_pages/cart.php:78
+msgid "Remove"
+msgstr "Poista"
+
+#: packages/community_store/elements/cart_modal.php:104
+#: packages/community_store/single_pages/cart.php:135
+msgid "Sub Total"
+msgstr "Välisumma"
+
+#: packages/community_store/elements/cart_modal.php:108
+#: packages/community_store/single_pages/cart.php:146
+msgid "Your cart is empty"
+msgstr "Ostoskorisi on tyhjä"
+
+#: packages/community_store/elements/cart_modal.php:113
+msgid "Continue Shopping"
+msgstr "Jatka ostamista"
+
+#: packages/community_store/elements/cart_modal.php:115
+#: packages/community_store/single_pages/cart.php:141
+msgid "Clear Cart"
+msgstr "Tyhjennä ostoskori"
+
+#: packages/community_store/elements/order_slip.php:8
+#: packages/community_store/single_pages/dashboard/store/orders.php:16
+msgid "Customer Overview"
+msgstr "Asiakkaan yleistiedot"
+
+#: packages/community_store/elements/order_slip.php:16
+#: packages/community_store/single_pages/checkout.php:68
+#: packages/community_store/single_pages/dashboard/store/orders.php:23
+msgid "Email"
+msgstr "Sähköposti"
+
+#: packages/community_store/elements/order_slip.php:23
+#: packages/community_store/single_pages/dashboard/store/orders.php:30
+#: packages/community_store/single_pages/dashboard/store/orders.php:187
+msgid "User"
+msgstr "Käyttäjä"
+
+#: packages/community_store/elements/order_slip.php:29
+#: packages/community_store/mail/new_order_notification.php:26
+#: packages/community_store/mail/order_receipt.php:26
+#: packages/community_store/single_pages/dashboard/store/orders.php:36
+msgid "Billing Information"
+msgstr "Laskutustiedot"
+
+#: packages/community_store/elements/order_slip.php:33
+#: packages/community_store/single_pages/checkout.php:75
+#: packages/community_store/single_pages/dashboard/store/orders.php:40
+msgid "Phone"
+msgstr "Puhelin"
+
+#: packages/community_store/elements/order_slip.php:38
+#: packages/community_store/mail/new_order_notification.php:38
+#: packages/community_store/mail/order_receipt.php:38
+#: packages/community_store/single_pages/dashboard/store/orders.php:45
+msgid "Shipping Information"
+msgstr "Lähetystiedot"
+
+#: packages/community_store/elements/order_slip.php:47
+#: packages/community_store/single_pages/dashboard/store/orders.php:53
+msgid "Order Info"
+msgstr "Tilaustiedot"
+
+#: packages/community_store/elements/order_slip.php:52
+#: packages/community_store/mail/new_order_notification.php:56
+#: packages/community_store/mail/order_receipt.php:56
+#: packages/community_store/single_pages/dashboard/store/orders.php:58
+#: packages/community_store/single_pages/dashboard/store/products.php:63
+#: packages/community_store/single_pages/dashboard/store/products.php:793
+msgid "Product Name"
+msgstr "Tuotteen nimi"
+
+#: packages/community_store/elements/order_slip.php:53
+#: packages/community_store/single_pages/dashboard/store/orders.php:59
+msgid "Product Options"
+msgstr "Tuotevaihtoehdot"
+
+#: packages/community_store/elements/order_slip.php:54
+#: packages/community_store/mail/new_order_notification.php:59
+#: packages/community_store/mail/order_receipt.php:59
+#: packages/community_store/single_pages/dashboard/store/orders.php:60
+#: packages/community_store/single_pages/dashboard/store/products.php:80
+#: packages/community_store/single_pages/dashboard/store/products.php:796
+msgid "Price"
+msgstr "Hinta"
+
+#: packages/community_store/elements/order_slip.php:56
+#: packages/community_store/elements/order_slip.php:95
+#: packages/community_store/mail/new_order_notification.php:60
+#: packages/community_store/mail/order_receipt.php:60
+#: packages/community_store/single_pages/dashboard/store/orders.php:62
+#: packages/community_store/single_pages/dashboard/store/orders.php:101
+msgid "Subtotal"
+msgstr "Välisumma"
+
+#: packages/community_store/elements/order_slip.php:99
+#: packages/community_store/elements/order_slip.php:141
+#: packages/community_store/mail/new_order_notification.php:105
+#: packages/community_store/mail/order_receipt.php:132
+#: packages/community_store/mail/order_receipt.php:189
+#: packages/community_store/single_pages/checkout.php:323
+#: packages/community_store/single_pages/dashboard/store.php:133
+#: packages/community_store/single_pages/dashboard/store/discounts.php:207
+#: packages/community_store/single_pages/dashboard/store/orders.php:105
+#: packages/community_store/single_pages/dashboard/store/orders.php:147
+#: packages/community_store/single_pages/dashboard/store/products.php:48
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:141
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:143
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:192
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:215
+#: packages/community_store/single_pages/dashboard/store/settings.php:19
+msgid "Shipping"
+msgstr "Toimituskulut"
+
+#: packages/community_store/elements/order_slip.php:100
+#: packages/community_store/single_pages/checkout.php:348
+#: packages/community_store/single_pages/dashboard/store/orders.php:106
+msgid "Grand Total"
+msgstr "Kokonaissumma"
+
+#: packages/community_store/elements/order_slip.php:103
+#: packages/community_store/elements/order_slip.php:147
+#: packages/community_store/single_pages/dashboard/store/orders.php:109
+#: packages/community_store/single_pages/dashboard/store/orders.php:153
+msgid "Payment Method"
+msgstr "Maksutapa"
+
+#: packages/community_store/elements/order_slip.php:104
+#: packages/community_store/single_pages/checkout.php:205
+#: packages/community_store/single_pages/dashboard/store/orders.php:110
+msgid "Shipping Method"
+msgstr "Toimitustapa"
+
+#: packages/community_store/elements/order_slip.php:110
+#: packages/community_store/single_pages/dashboard/store/orders.php:116
+msgid "Discounts Applied"
+msgstr "Sovelletut alennukset"
+
+#: packages/community_store/elements/order_slip.php:115
+#: packages/community_store/single_pages/dashboard/store/discounts.php:27
+#: packages/community_store/single_pages/dashboard/store/discounts.php:158
+#: packages/community_store/single_pages/dashboard/store/orders.php:121
+#: packages/community_store/single_pages/dashboard/store/reports/products.php:41
+msgid "Name"
+msgstr "Nimi"
+
+#: packages/community_store/elements/order_slip.php:116
+#: packages/community_store/single_pages/dashboard/store/orders.php:122
+msgid "Displayed"
+msgstr "Näyttönimi"
+
+#: packages/community_store/elements/order_slip.php:117
+#: packages/community_store/single_pages/dashboard/store/orders.php:123
+msgid "Deducted From"
+msgstr "Vähennettynä arvosta"
+
+#: packages/community_store/elements/order_slip.php:118
+#: packages/community_store/single_pages/dashboard/store/orders.php:124
+msgid "Amount"
+msgstr "Arvo"
+
+#: packages/community_store/elements/order_slip.php:119
+#: packages/community_store/single_pages/dashboard/store/orders.php:125
+msgid "Triggered"
+msgstr "Kohdistettu"
+
+#: packages/community_store/elements/order_slip.php:130
+#: packages/community_store/single_pages/dashboard/store/orders.php:136
+msgid "by code"
+msgstr "koodin perusteella"
+
+#: packages/community_store/elements/order_slip.php:130
+#: packages/community_store/single_pages/dashboard/store/orders.php:136
+msgid "Automatically"
+msgstr "Automaattisesti"
+
+#: packages/community_store/elements/order_slip.php:138
+#: packages/community_store/single_pages/checkout.php:304
+#: packages/community_store/single_pages/dashboard/store/orders.php:144
+msgid "Items Subtotal"
+msgstr "Tuotteiden välisumma"
+
+#: packages/community_store/elements/order_slip.php:146
+#: packages/community_store/mail/new_order_notification.php:111
+#: packages/community_store/mail/order_receipt.php:138
+#: packages/community_store/mail/order_receipt.php:190
+#: packages/community_store/single_pages/dashboard/store.php:95
+#: packages/community_store/single_pages/dashboard/store.php:97
+#: packages/community_store/single_pages/dashboard/store.php:134
+#: packages/community_store/single_pages/dashboard/store/orders.php:152
+#: packages/community_store/single_pages/dashboard/store/orders.php:266
+#: packages/community_store/single_pages/dashboard/store/reports/products.php:43
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:117
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:119
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:193
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:216
+msgid "Total"
+msgstr "Yhteensä"
+
+#: packages/community_store/mail/new_order_notification.php:4
+msgid "New Order Notification"
+msgstr "Muistutus uudesta tilauksesta"
+
+#: packages/community_store/mail/new_order_notification.php:19
+msgid "An order has been placed!"
+msgstr "Uusi tilaus on saapunut!"
+
+#: packages/community_store/mail/new_order_notification.php:21
+#: packages/community_store/mail/order_receipt.php:21
+msgid "Order"
+msgstr "Tilaus"
+
+#: packages/community_store/mail/new_order_notification.php:22
+msgid "An order has been placed on your website."
+msgstr "Tilaus on saapunut nettisivullesi."
+
+#: packages/community_store/mail/new_order_notification.php:52
+#: packages/community_store/mail/order_receipt.php:52
+msgid "Order Details"
+msgstr "Tilauksen yksityiskohdat"
+
+#: packages/community_store/mail/new_order_notification.php:57
+#: packages/community_store/mail/order_receipt.php:57
+#: packages/community_store/single_pages/dashboard/store/products.php:50
+#: packages/community_store/single_pages/dashboard/store/products.php:428
+msgid "Options"
+msgstr "Vaihtoehdot"
+
+#: packages/community_store/mail/new_order_notification.php:58
+#: packages/community_store/mail/order_receipt.php:58
+msgid "Qty"
+msgstr "Määrä"
+
+#: packages/community_store/mail/new_order_notification.php:102
+#: packages/community_store/mail/new_order_notification.php:108
+#: packages/community_store/mail/order_receipt.php:129
+#: packages/community_store/mail/order_receipt.php:135
+#: packages/community_store/mail/order_receipt.php:188
+#: packages/community_store/single_pages/checkout.php:315
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:191
+#: packages/community_store/single_pages/dashboard/store/settings.php:18
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:118
+msgid "Tax"
+msgstr "Vero"
+
+#: packages/community_store/mail/new_order_notification.php:133
+msgid "Order #:"
+msgstr "Tilausnumero:"
+
+#: packages/community_store/mail/new_order_notification.php:135
+msgid "A new order has been placed on your website"
+msgstr "Uusi tilaus on saapunut nettisivullesi."
+
+#: packages/community_store/mail/new_user.php:4
+msgid "account Created"
+msgstr "tili on luotu"
+
+#: packages/community_store/mail/new_user.php:12
+msgid "Thank you for your order, an account has been created for you at"
+msgstr "Kiitos tilauksestasi, sinulle on luotu asiakastili"
+
+#: packages/community_store/mail/new_user.php:33
+msgid "An account has been created for you at"
+msgstr "Ssinulle on luotu asiakastili täällä:"
+
+#: packages/community_store/mail/order_receipt.php:4
+msgid "Order Receipt"
+msgstr "Kuitti tilauksesta"
+
+#: packages/community_store/mail/order_receipt.php:19
+msgid "Your Order"
+msgstr "Tilauksesi"
+
+#: packages/community_store/mail/order_receipt.php:22
+msgid "Thanks for your order! Below are the details of your order."
+msgstr "Kiitos tilauksestasi! Ohessa tilauksesi tiedot."
+
+#: packages/community_store/mail/order_receipt.php:111
+#: packages/community_store/single_pages/checkout/complete.php:19
+msgid "Your Downloads"
+msgstr "Latauksesi"
+
+#: packages/community_store/mail/order_receipt.php:112
+msgid "Note: You must be logged in to download files"
+msgstr "Huomaa: Sinun tulee olla sisäänkirjautuneena ladataksesi tiedostoja"
+
+#: packages/community_store/mail/order_receipt.php:160
+msgid "Order #%s has been received"
+msgstr "Tilaus #%s on vastaanotettu"
+
+#: packages/community_store/mail/order_receipt.php:162
+msgid "BILLING INFORMATION"
+msgstr "LASKUTUSTIEDOT"
+
+#: packages/community_store/mail/order_receipt.php:170
+msgid "SHIPPING INFORMATION"
+msgstr "LÄHETYSTIEDOT"
+
+#: packages/community_store/mail/order_receipt.php:178
+msgid "ORDER ITEMS"
+msgstr "TILAUKSEN TUOTTEET"
+
+#: packages/community_store/single_pages/checkout/complete.php:2
+msgid "Order #%s is Complete"
+msgstr "Tilaus #%s on valmis"
+
+#: packages/community_store/single_pages/checkout/complete.php:4
+msgid "Thank you for your order. A receipt should be emailed to you shortly."
+msgstr "Kiitos tilauksestasi! Saat kuitin sähköpostiisi pikapuolin."
+
+#: packages/community_store/single_pages/dashboard/store/products/attributes.php:29
+msgid "Add Attribute"
+msgstr "Lisää ominaisuus"
+
+#: packages/community_store/single_pages/dashboard/store/reports/products.php:9
+msgid "From"
+msgstr "Lähettäjä:"
+
+#: packages/community_store/single_pages/dashboard/store/reports/products.php:17
+msgid "To"
+msgstr "Tälle:"
+
+#: packages/community_store/single_pages/dashboard/store/reports/products.php:25
+msgid "Order By"
+msgstr "Tilaaja: "
+
+#: packages/community_store/single_pages/dashboard/store/reports/products.php:32
+msgid "Filter Results"
+msgstr "Suodata tuloksete"
+
+#: packages/community_store/single_pages/dashboard/store/reports/products.php:42
+msgid "Quantity Sold"
+msgstr "Myyty määrä"
+
+#: packages/community_store/single_pages/dashboard/store.php:10
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:11
+msgid "Today's Sales"
+msgstr "Päivän myynnit"
+
+#: packages/community_store/single_pages/dashboard/store.php:36
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:63
+msgid "Year to Date"
+msgstr "Vuoden alusta"
+
+#: packages/community_store/single_pages/dashboard/store.php:131
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:129
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:131
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:190
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:213
+msgid "Products"
+msgstr "Tuotteet"
+
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:171
+msgid "View Orders by Date"
+msgstr "Näytä tilaukset päivämäärän mukaan"
+
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:186
+msgid "Summary"
+msgstr "Yhteenveto"
+
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:194
+msgid "Export"
+msgstr "Vie"
+
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:203
+msgid "Export to CSV"
+msgstr "Vie CSV-tiedostoon"
+
+#: packages/community_store/single_pages/dashboard/store.php:129
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:211
+msgid "Order #"
+msgstr "Tilausnumero"
+
+#: packages/community_store/single_pages/dashboard/store.php:130
+#: packages/community_store/single_pages/dashboard/store/orders.php:186
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:212
+msgid "Date"
+msgstr "Päiväys"
+
+#: packages/community_store/single_pages/dashboard/store.php:132
+#: packages/community_store/single_pages/dashboard/store/reports/sales.php:214
+msgid "Tax Total"
+msgstr "Vero yhteensä"
+
+#: packages/community_store/single_pages/dashboard/store/settings/shipping.php:26
+msgid "Method Name"
+msgstr "Toimitustavan nimi"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:32
+#: packages/community_store/single_pages/dashboard/store/discounts.php:97
+#: packages/community_store/single_pages/dashboard/store/discounts.php:163
+#: packages/community_store/single_pages/dashboard/store/discounts.php:164
+#: packages/community_store/single_pages/dashboard/store/settings.php:89
+#: packages/community_store/single_pages/dashboard/store/settings/shipping.php:30
+msgid "Enabled"
+msgstr "Aktiivinen"
+
+#: packages/community_store/single_pages/dashboard/store/settings/shipping.php:43
+msgid "%s Shipping Method"
+msgstr "%s toimitustapa"
+
+#: packages/community_store/single_pages/dashboard/store/settings/shipping.php:54
+msgid "Add Method"
+msgstr "Lisää toimitustapa"
+
+#: packages/community_store/single_pages/dashboard/store/settings/shipping.php:62
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:107
+msgid "General Settings"
+msgstr "Yleisasetukset"
+
+#: packages/community_store/single_pages/dashboard/store/settings/shipping.php:71
+msgid " Methods"
+msgstr "Toimitustavat"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:33
+#: packages/community_store/single_pages/dashboard/store/products.php:799
+#: packages/community_store/single_pages/dashboard/store/settings/shipping.php:72
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:116
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:148
+msgid "Actions"
+msgstr "Toimenpiteet"
+
+#: packages/community_store/single_pages/dashboard/store/settings/shipping.php:79
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:134
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:156
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:137
+#: packages/community_store/single_pages/dashboard/store/settings/shipping.php:80
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:136
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:157
+msgid "Delete"
+msgstr "Poista"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:20
+msgid "Enable Tax Rate"
+msgstr "Salli verokanta"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:107
+#: packages/community_store/single_pages/dashboard/store/products.php:115
+#: packages/community_store/single_pages/dashboard/store/products.php:261
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:21
+msgid "No"
+msgstr "Ei"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:107
+#: packages/community_store/single_pages/dashboard/store/products.php:115
+#: packages/community_store/single_pages/dashboard/store/products.php:156
+#: packages/community_store/single_pages/dashboard/store/products.php:261
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:21
+msgid "Yes"
+msgstr "Kyllä"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:26
+msgid "Tax Label"
+msgstr "Veron otsikko"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:32
+msgid "Tax Rate %"
+msgstr "Veroprosentti"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:42
+msgid "Tax is Based on the"
+msgstr "Vero perustuu:"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:43
+msgid "Product Total"
+msgstr "tuotteiden hintaan"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:43
+msgid "Product Total + Shipping"
+msgstr "tuotteiden hintaan + toimituskuluihin"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:46
+msgid "When to Charge Tax"
+msgstr "Milloin vero peritään"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:54
+msgid "If the Customers..."
+msgstr "Jos asiakkaaat..."
+
+#: packages/community_store/single_pages/checkout.php:130
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:55
+msgid "Shipping Address"
+msgstr "Toimitusosoite"
+
+#: packages/community_store/single_pages/checkout.php:48
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:55
+msgid "Billing Address"
+msgstr "Laskutusosoite"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:62
+msgid "Matches..."
+msgstr "vastaaa..."
+
+#: packages/community_store/single_pages/checkout.php:94
+#: packages/community_store/single_pages/checkout.php:168
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:64
+msgid "Country"
+msgstr "Valtio"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:64
+msgid "Required"
+msgstr "Vaadittu"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:73
+msgid "Region"
+msgstr "Alue"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:73
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:82
+msgid "Optional"
+msgstr "Vaihtoehtoinen"
+
+#: packages/community_store/single_pages/checkout.php:101
+#: packages/community_store/single_pages/checkout.php:175
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:82
+msgid "City"
+msgstr "Kaupunki"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:97
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:203
+msgid "%s Tax Rate"
+msgstr "%s verokanta"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:106
+msgid "Add Tax Class"
+msgstr "Lisää veroluokka"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:114
+msgid "Tax Classes"
+msgstr "Veroluokat"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:115
+msgid "Associated Tax Rates"
+msgstr "Yhdistetyt verokannat"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:5
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:147
+msgid "Tax Rates"
+msgstr "Verokannat"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:175
+msgid "Tax Class Name"
+msgstr "Veroluokan nimi"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:180
+msgid "Since you're prices INCLUDE Tax, you can only specify one tax rate per class. If you need more, you must change this setting in the %stax setting here%s"
+msgstr "Koska hintasi SISÄLTÄVÄT veron, voi määritellä vain yhden verokannan luokalle. Jos tarvitset useamman, sinun pitää muuttaa tämä %sveroasetus täällä%s"
+
+#: packages/community_store/single_pages/dashboard/store/settings/tax.php:184
+msgid "Select Tax Class Rates"
+msgstr "Valitse veroluokan kannat"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:28
+msgid "Display"
+msgstr "Näytä"
+
+#: packages/community_store/single_pages/checkout.php:328
+#: packages/community_store/single_pages/dashboard/store/discounts.php:29
+msgid "Discount"
+msgstr "Alennus"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:30
+msgid "Applies"
+msgstr "soveltuu"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:31
+msgid "Availability"
+msgstr "Saatavuus"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:45
+#: packages/community_store/single_pages/dashboard/store/discounts.php:47
+msgid "from"
+msgstr "alkaen"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:54
+msgid "automatically"
+msgstr "automaattisesti"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:60
+msgid "when single use code entered"
+msgstr "kun syötetään yksinkertainen käyttökoodi"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:61
+msgid "of"
+msgstr "määrästä"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:61
+msgid "codes available"
+msgstr "koodeja saatavilla"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:63
+msgid "when code entered"
+msgstr "kun koodi syötetään"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:64
+msgid "code"
+msgstr "koodi"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:64
+msgid "codes"
+msgstr "koodit"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:64
+msgid "configured"
+msgstr "konfiguroitu"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:70
+msgid "exclusively"
+msgstr "yksinomaisesti"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:79
+msgid "starts"
+msgstr "alkaa"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:83
+msgid "expires"
+msgstr "päättyy"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:87
+msgid "always"
+msgstr "aina"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:97
+#: packages/community_store/single_pages/dashboard/store/discounts.php:164
+#: packages/community_store/single_pages/dashboard/store/settings.php:214
+msgid "Disabled"
+msgstr "Käytöstä poistettu"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:102
+msgid "Manage Codes"
+msgstr "Hallitse koodeja"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:168
+msgid "Display Text"
+msgstr "Näytä teksti"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:177
+msgid "Deduction Type"
+msgstr "Vähennystyyppi"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:178
+msgid "Percentage"
+msgstr "Prosenttimäärä"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:179
+msgid "Value"
+msgstr "Arvo"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:183
+msgid "Percentage Discount"
+msgstr "Prosenttialennus"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:191
+msgid "Value Discount"
+msgstr "Määräalennus"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:203
+msgid "Deduct From"
+msgstr "Vähennetty arvosta"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:207
+msgid "Total, including shipping"
+msgstr "Kokonaissumma, ml. toimituskulut"
+
+#: packages/community_store/single_pages/cart.php:109
+#: packages/community_store/single_pages/dashboard/store/discounts.php:211
+msgid "Apply"
+msgstr "Sovella"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:212
+msgid "Automatically, (when matching all restrictions)"
+msgstr "Automaattisesti (kun kaikki rajoitukset täyttyvät)"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:213
+msgid "When valid code entered"
+msgstr "Kun hyväksyttävä koodi on syötetty"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:218
+msgid "Single use codes"
+msgstr "Kertakäyttöiset koodit"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:221
+msgid "Codes can be entered after creating rule"
+msgstr "Koodit voidaan syöttää säännön luomisen jälkeen"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:227
+msgid "Restrictions"
+msgstr "Rajoitukset"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:231
+msgid "Discount is Exclusive"
+msgstr "Alennus on yksinomainen"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:232
+msgid "When checked, discount cannot be used in conjunction with another discount"
+msgstr "Kun valittu, alennusta ei voi käyttää toisen alennuksen kanssa"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:237
+msgid "Starts"
+msgstr "Alkaa"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:240
+msgid "Immedately"
+msgstr "Heti"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:240
+msgid "From a specified date"
+msgstr "Tietystä päivämäärästä alkaen"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:250
+msgid "Ends"
+msgstr "Päättyy"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:253
+msgid "Never"
+msgstr "Ei koskaan"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:253
+msgid "At a specified date"
+msgstr "Määriteltynä päivänä"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:267
+msgid "Description / Notes"
+msgstr "Kuvaus / Huomautukset"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:277
+#: packages/community_store/single_pages/dashboard/store/products.php:748
+msgid "Cancel"
+msgstr "Kumoa"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:287
+msgid "Are you sure you want to delete this discount rule?"
+msgstr "Haluatko varmasti poistaa tämän alennussäännön?"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:346
+msgid "code added"
+msgstr "koodi lisätty"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:346
+msgid "codes added"
+msgstr "koodit lisätty"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:350
+msgid "The following codes are were invalid or are already active:"
+msgstr "Seuraavat koodit ovat vääriä tai jo käytössä:"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:357
+msgid "Current Codes"
+msgstr "Nykyiset koodit"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:361
+msgid "Single Use Codes"
+msgstr "Kertakoodi"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:363
+msgid "Codes can be repeatedly used"
+msgstr "Koodeja voi käyttää uudestaan"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:370
+msgid "Code"
+msgstr "Koodi"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:373
+msgid "Used"
+msgstr "Käytetty"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:384
+msgid "View Order"
+msgstr "Näytä tilaus"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:390
+msgid "Available"
+msgstr "Saatavilla"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:417
+msgid "No codes specified"
+msgstr "Ei määritelty koodeja"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:422
+#: packages/community_store/single_pages/dashboard/store/discounts.php:431
+msgid "Add Codes"
+msgstr "Lisää koodit"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:425
+msgid "Code(s)"
+msgstr "Koodi(t)"
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:427
+msgid "Seperate codes via lines or commas. Codes are case-insensitive."
+msgstr "Erota koodit rivinsiirroin tai pilkuin. Koodeissa on ero isojen ja pienten kirjainten välillä. "
+
+#: packages/community_store/single_pages/dashboard/store/discounts.php:438
+msgid "Return to Discount Rules"
+msgstr "Palaa alennussääntöihin"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:12
+msgid "Print Order Slip"
+msgstr "Tulosta tilausliuska"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:161
+msgid "Order Status History"
+msgstr "Tilaustilanteen historia"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:167
+msgid "Update Status"
+msgstr "Päivitä tila"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:185
+#: packages/community_store/single_pages/dashboard/store/orders.php:267
+msgid "Status"
+msgstr "Tila"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:211
+msgid "Manage Order"
+msgstr "Käsittele tilaus"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:217
+msgid "Order Options"
+msgstr "Tilauksen vaihtoehdot"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:221
+msgid "Delete Order"
+msgstr "Poista tilaus"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:239
+msgid "All Statuses"
+msgstr "Kaikki tilat"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:252
+msgid "Search Orders"
+msgstr "Etsi tilauksia"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:255
+#: packages/community_store/single_pages/dashboard/store/products.php:785
+msgid "Search"
+msgstr "Etsi"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:263
+msgid "Order %s"
+msgstr "Tilaus %s"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:264
+msgid "Customer Name"
+msgstr "Asiakkaan nimi"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:265
+msgid "Order Date"
+msgstr "Tilauspäivä"
+
+#: packages/community_store/single_pages/dashboard/store/orders.php:268
+#: packages/community_store/single_pages/dashboard/store/orders.php:280
+msgid "View"
+msgstr "Näkymä"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:26
+msgid "Delete Product"
+msgstr "Poista tuote"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:32
+msgid "Are you sure you want to delete this product?"
+msgstr "Haluatko varmasti poistaa tämän tuotteen?"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:46
+msgid "Overview"
+msgstr "Yleistiedot"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:47
+msgid "Categories"
+msgstr "Kategoriat"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:49
+msgid "Images"
+msgstr "Kuvat"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:51
+msgid "Attributes"
+msgstr "Ominaisuudet"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:52
+msgid "Memberships and Downloads"
+msgstr "Jäsenyydet ja lataukset"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:53
+msgid "Detail Page"
+msgstr "Erittelysivu"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:69
+#: packages/community_store/single_pages/dashboard/store/products.php:70
+#: packages/community_store/single_pages/dashboard/store/products.php:794
+#: packages/community_store/single_pages/dashboard/store/products.php:812
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:70
+#: packages/community_store/single_pages/dashboard/store/products.php:814
+msgid "Inactive"
+msgstr "Ei-aktiivinen"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:92
+msgid "Sale Price"
+msgstr "Myyntihinta"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:106
+msgid "Featured Product"
+msgstr "Korostetttu tuote"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:114
+msgid "Taxable"
+msgstr "Verotettava"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:120
+msgid "Tax Class"
+msgstr "Veroluokat"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:128
+#: packages/community_store/single_pages/dashboard/store/products.php:795
+msgid "Stock Level"
+msgstr "Varastotilanne"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:134
+#: packages/community_store/single_pages/dashboard/store/products.php:818
+msgid "Unlimited"
+msgstr "Rajaton"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:150
+msgid "Allow Back Orders"
+msgstr "Salli loppuneiden tuotteiden tilaus"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:155
+msgid "Offer quantity selection"
+msgstr "Tarjoa määrän valinta"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:156
+msgid "No, only allow one of this product in a cart"
+msgstr "Ei, salli vain yksi tällainen tuote ostoskorissa"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:162
+msgid "Short Description"
+msgstr "Tuotetiivistelmä"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:179
+msgid "Product Details (Long Description)"
+msgstr "Tuotekuvaus (pitkä luonnehdinta)"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:199
+msgid "Categorized under pages"
+msgstr "Luokiteltu sivujen alla"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:214
+msgid "In product groups"
+msgstr "tuoteryhmissä"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:260
+msgid "Product is Shippable"
+msgstr "Tuote on postitettava"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:278
+msgid "Length"
+msgstr "Pituus"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:286
+msgid "Width"
+msgstr "Leveys"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:294
+msgid "Height"
+msgstr "Paino"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:311
+msgid "Primary Product Image"
+msgstr "Tuotteen pääkuva"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:313
+#: packages/community_store/single_pages/dashboard/store/products.php:338
+msgid "Choose Image"
+msgstr "Valitse kuva"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:317
+msgid "Additional Images"
+msgstr "Lisäkuvat"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:322
+msgid "Add Image"
+msgstr "Lisää kuva"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:432
+msgid "Add Option Group"
+msgstr "Lisää vaihtoehtoryhmä"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:440
+msgid "Group Name:"
+msgstr "Ryhmän nimi:"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:446
+msgid "Add Option to the Group"
+msgstr "Lisää vaihtoehto ryhmään"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:447
+msgid "Delete the Option Group"
+msgstr "Poista vaihtoehtoryhmä"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:522
+msgid "Option"
+msgstr "Vaihtoehto"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:613
+msgid "While you can set and assign attributes, they're are currently only able to be accessed programmatically"
+msgstr "Vaikka voit asentaa ja luokitella attribuutteja, ne voidaan toistaiseksi ottaa käyttöön vain ohjelmallisesti."
+
+#: packages/community_store/single_pages/dashboard/store/products.php:632
+msgid "You haven't created product attributes"
+msgstr "Et ole luonut tuoteattribuutteja"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:649
+msgid "File to download on purchase"
+msgstr "Kaupan yhteydessä ladattava tiedosto"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:650
+msgid "Choose File"
+msgstr "Valitse tiedosto"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:658
+msgid "In order to have digital downloads, you need to %sturn on advanced permissions%s."
+msgstr "Jos haluatte ladattavia tiedostoja, teidän pitää %slaittaa päälle erityisoikeudet%s."
+
+#: packages/community_store/single_pages/dashboard/store/products.php:665
+msgid "Create user account on purchase"
+msgstr "Luo asiakastili kaupan yhteydessä"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:666
+msgid "When checked, if customer is guest, will create a user account on purchase"
+msgstr "Kun tämä on valittu, luodaan asiakastili kaupan yhteydessä, vaikka asiakas on vierailija"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:670
+msgid "On purchase add user to user groups"
+msgstr "Lisää käyttäjä käyttäjäryhmään kaupan yhteydessä."
+
+#: packages/community_store/single_pages/dashboard/store/products.php:672
+msgid "Select user groups"
+msgstr "Valitse käyttäjäryhmä"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:687
+msgid "Send customer directly to checkout when added to cart"
+msgstr "Siirrä asiakas suoraan kassalle, kun tuote lisätään ostoskoriin"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:692
+msgid "Prevent this item from being in the cart with other items"
+msgstr "Estä tämä tuote olemasta ostoskorissa muiden tuotteiden kanssa"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:712
+msgid "Detail Page is set to: "
+msgstr "Erittelysivu on asetettu:"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:717
+msgid "We're not sure why, but this product doesn't seem to have a Page that correlates to it."
+msgstr "Tämä tuote ei näytä liittyvän mihinkään sivuun."
+
+#: packages/community_store/single_pages/dashboard/store/products.php:721
+#: packages/community_store/single_pages/dashboard/store/products.php:736
+msgid "Page Template"
+msgstr "Sivupohja"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:725
+msgid "Generate a Product Page"
+msgstr "Luo tuotesivu"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:733
+msgid "When you create a product, we'll make a page for that product. Below is the available templates for the Product Page Type. Choose one, and we'll use this to create the Detail page."
+msgstr "Kun luot tuotteen, teemme sivun tälle tuotteelle. Alla näkyvät tarjolla olevat tuotesivujen pohjat. Valitse niistä yksi ja me käytämme sitä erittelysivun luomiseen."
+
+#: packages/community_store/single_pages/dashboard/store/products.php:749
+msgid "%s Product"
+msgstr "%s Tuote"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:760
+msgid "Manage Attributes"
+msgstr "Hallitse ominaisuuksia"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:761
+msgid "Manage Groups"
+msgstr "Hallitse ryhmiä"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:770
+msgid "All Groups"
+msgstr "Kaikki ryhmät"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:781
+msgid "Search Products"
+msgstr "Etsi tuotetta"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:792
+msgid "Primary Image"
+msgstr "Pääkuva"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:797
+#: packages/community_store/single_pages/dashboard/store/products.php:823
+msgid "Featured"
+msgstr "Korostettu"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:798
+#: packages/community_store/single_pages/dashboard/store/products.php:859
+msgid "Groups"
+msgstr "Ryhmät"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:825
+msgid "Not Featured"
+msgstr "Ei korostettu"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:836
+msgid "None"
+msgstr "Ei mikään"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:879
+msgid "You have not added a group yet"
+msgstr "Et ole vielä lisännyt ryhmää"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:883
+msgid "Add a Group"
+msgstr "Lisää ryhmä"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:886
+msgid "Group Name"
+msgstr "Ryhmän nimi"
+
+#: packages/community_store/single_pages/dashboard/store/products.php:889
+msgid "Add Group"
+msgstr "Lisää ryhmä"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:4
+msgid "Shipping Methods"
+msgstr "Toimitustavat"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:20
+msgid "Payments"
+msgstr "Maksut"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:21
+msgid "Order Statuses"
+msgstr "Tilausstatukset"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:22
+msgid "Notifications"
+msgstr "Ilmoitukset"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:33
+msgid "Currency Symbol"
+msgstr "Valuutttasymboli"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:37
+msgid "Thousands Separator %se.g. , or a space%s"
+msgstr "Tuhaterotin%s, esim. välilyönti %s"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:41
+msgid "Whole Number Separator %se.g. period or a comma%s"
+msgstr "Desimaalierotin %s, esimerkiksi piste tai pilkku%s"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:50
+msgid "Are Prices Entered with Tax Included?"
+msgstr "Ilmoitetaanko hinnat verollisina?"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:51
+msgid "No, I will enter product prices EXCLUSIVE of tax"
+msgstr "Ei, tuotehinnat ilmoitetaan ILMAN veroja"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:51
+msgid "Yes, I will enter product prices INCLUSIVE of tax"
+msgstr "Kyllä, tuotehinnat ilmoitetaan verot MUKANA"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:58
+msgid "Terminology"
+msgstr "Terminologia"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:62
+msgid "Units for Weight"
+msgstr "Painoyksiköt"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:63
+msgid "lb"
+msgstr "pauna"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:63
+msgid "kg"
+msgstr "kg"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:68
+msgid "Units for Size"
+msgstr "Mittayksiköt"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:69
+msgid "in"
+msgstr "tuumaa"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:69
+msgid "cm"
+msgstr "cm"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:96
+msgid "Display Name (on checkout)"
+msgstr "Näytä nimi (kassalla)"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:110
+msgid "No Payment Methods are Installed"
+msgstr "Maksutapoja ei ole asennettu"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:138
+msgid "Display Name"
+msgstr "Näytä nimi"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:139
+msgid "Default Status"
+msgstr "Näytä tila"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:140
+msgid "Send Change Notifications to..."
+msgstr "Lähetä ilmoitukset muutoksista..."
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:143
+msgid "Site"
+msgstr "Sivusto"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:144
+msgid "Customer"
+msgstr "Asiakas"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:175
+msgid "No Order Statuses are available"
+msgstr "Tilausstatuksia ei ole saatavilla"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:185
+msgid "Enter Emails to Notify of New Orders %sseparate multiple emails with commas%s"
+msgstr "Anna sähköpostiosoitteet, joihin ilmoitetaan uusista tilauksista (%serota useampi osoite pilkulla%s)"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:190
+msgid "Email address to send alerts from"
+msgstr "Sähköpostiosoite josta ilmoitukset lähetetään"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:200
+msgid "Page to Publish Product Pages Under"
+msgstr "Sivu, jonka alle tuotesivut tulevat"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:209
+msgid "Guest checkout"
+msgstr "Kassalle vierailijana"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:215
+msgid "Offer as checkout option"
+msgstr "Tarjoa vaihtoehtona kassalla"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:216
+msgid "Always (unless login required for products in cart)"
+msgstr "Aina (elleivät ostoskorin tuotteet vaadi kirjautumista)"
+
+#: packages/community_store/single_pages/dashboard/store/settings.php:226
+msgid "Save Settings"
+msgstr "Tallenna asetukset"
+
+#: packages/community_store/single_pages/dashboard/store.php:62
+msgid "Sales this Week"
+msgstr "Viikon myynnit"
+
+#: packages/community_store/single_pages/dashboard/store.php:125
+msgid "Recent Orders"
+msgstr "Viimeiset tilaukset"
+
+#: packages/community_store/single_pages/cart.php:105
+msgid "Enter Discount Code"
+msgstr "Syötä alennuskoodi"
+
+#: packages/community_store/single_pages/cart.php:114
+msgid "Discount has been applied"
+msgstr "Alennus on otettu käyttöön"
+
+#: packages/community_store/single_pages/cart.php:118
+msgid "Invalid code"
+msgstr "Väärä koodi"
+
+#: packages/community_store/single_pages/cart.php:122
+#: packages/community_store/single_pages/checkout.php:328
+msgid "Discounts"
+msgstr "Alennukset"
+
+#: packages/community_store/single_pages/checkout.php:19
+msgid "Sign in, Register or Checkout as Guest"
+msgstr "Kirjaudu, rekisteröidy tai siirry kassalle vierailijana"
+
+#: packages/community_store/single_pages/checkout.php:21
+msgid "Sign in or Register"
+msgstr "Kirjaudu tai rekisteröidy"
+
+#: packages/community_store/single_pages/checkout.php:29
+msgid "In order to proceed, you'll need to either register, or sign in with your existing account."
+msgstr "Jatkaaksesi sinun täytyy rekisteröityä tai kirjautua olemassa olevalle tilillesi."
+
+#: packages/community_store/single_pages/checkout.php:32
+msgid "Register"
+msgstr "Rekisteröidy"
+
+#: packages/community_store/single_pages/checkout.php:37
+msgid "Or optionally, you may choose to checkout as a guest."
+msgstr "Tai vaihtoehtoisesti voi siirtyä kassalle kirjautumatta."
+
+#: packages/community_store/single_pages/checkout.php:38
+msgid "Checkout as Guest"
+msgstr "Kassalle kirjautumatta"
+
+#: packages/community_store/single_pages/checkout.php:53
+#: packages/community_store/single_pages/checkout.php:144
+msgid "First Name"
+msgstr "Etunimi"
+
+#: packages/community_store/single_pages/checkout.php:59
+#: packages/community_store/single_pages/checkout.php:150
+msgid "Last Name"
+msgstr "Sukunimi"
+
+#: packages/community_store/single_pages/checkout.php:82
+#: packages/community_store/single_pages/checkout.php:156
+msgid "Address 1"
+msgstr "Osoite 1"
+
+#: packages/community_store/single_pages/checkout.php:88
+#: packages/community_store/single_pages/checkout.php:162
+msgid "Address 2"
+msgstr "Osoite 2"
+
+#: packages/community_store/single_pages/checkout.php:107
+#: packages/community_store/single_pages/checkout.php:181
+msgid "State"
+msgstr "Lääni / osavaltio"
+
+#: packages/community_store/single_pages/checkout.php:115
+#: packages/community_store/single_pages/checkout.php:189
+msgid "Postal Code"
+msgstr "Postinumero"
+
+#: packages/community_store/single_pages/checkout.php:121
+#: packages/community_store/single_pages/checkout.php:196
+#: packages/community_store/single_pages/checkout.php:222
+msgid "Next"
+msgstr "Seuraava"
+
+#: packages/community_store/single_pages/checkout.php:137
+msgid "Same as Billing Address"
+msgstr "Sama kuin laskutusosoite"
+
+#: packages/community_store/single_pages/checkout.php:195
+#: packages/community_store/single_pages/checkout.php:221
+#: packages/community_store/single_pages/checkout.php:275
+msgid "Previous"
+msgstr "Edellinen"
+
+#: packages/community_store/single_pages/checkout.php:232
+msgid "Payment"
+msgstr "Maksu"
+
+#: packages/community_store/single_pages/checkout.php:271
+msgid "There are currently no payment methods available to process your order."
+msgstr "Ei ole saatavilla maksutapoja tilauksesi käsittelemiseksi."
+
+#: packages/community_store/single_pages/checkout.php:278
+msgid "Complete Order"
+msgstr "Täydennä tilaus"
+
+#: packages/community_store/single_pages/checkout.php:291
+msgid "Your Cart"
+msgstr "Ostoskorisi"
+
+#: packages/community_store/single_pages/checkout.php:306
+msgid "inc. taxes"
+msgstr "sis. verot"
+
+#: packages/community_store/single_pages/checkout.php:343
+msgid "Enter discount code"
+msgstr "Anna alennuskoodi"
+
+#: packages/community_store/single_pages/checkout.php:358
+msgid "Click Here if You're not Redirected"
+msgstr "Klikkaa tähän, jos sinua ei ole uudelleenohjattu"
+
+#: packages/community_store/src/CommunityStore/Discount/DiscountCode.php:56
+msgid "You must enter a name"
+msgstr "Sinun pitää antaa nimi"
+
+#: packages/community_store/src/CommunityStore/Discount/DiscountCode.php:60
+msgid "You must enter display text"
+msgstr "Sinun pitää antaa näyttönimi"
+
+#: packages/community_store/src/CommunityStore/Discount/DiscountCode.php:64
+msgid "You must enter a discount percentage"
+msgstr "Sinun pitää antaa alennusprosentti"
+
+#: packages/community_store/src/CommunityStore/Discount/DiscountCode.php:68
+msgid "You must enter a discount value"
+msgstr "Sinun pitää antaa alennuksen määrä"
+
+#: packages/community_store/src/CommunityStore/Discount/DiscountRule.php:211
+#: packages/community_store/src/CommunityStore/Discount/DiscountRule.php:215
+msgid "off"
+msgstr "pois"
+
+#: packages/community_store/src/CommunityStore/Payment/Methods/AuthNet/AuthNetPaymentMethod.php:38
+msgid "Transaction Key must be set"
+msgstr "Transaction Key täytyy syöttää"
+
+#: packages/community_store/src/CommunityStore/Payment/Methods/AuthNet/AuthNetPaymentMethod.php:41
+msgid "Login ID must be set"
+msgstr "Kirjautumisen ID määritettävä"
+
+#: packages/community_store/src/CommunityStore/Payment/Methods/PaypalStandard/PaypalStandardPaymentMethod.php:65
+msgid "PayPal Email must be set"
+msgstr "PayPal-tilin sähköpostiosoite pitää antaa"
+
+#: packages/community_store/src/CommunityStore/Shipping/Methods/FlatRateShippingMethod.php:152
+msgid "Please set a Base Rate"
+msgstr "Anna perushinta"
+
+#: packages/community_store/src/CommunityStore/Shipping/Methods/FlatRateShippingMethod.php:155
+msgid "Base Rate should be a number"
+msgstr "Perushinnan pitää olla numero"
+
+#: packages/community_store/src/CommunityStore/Shipping/Methods/FlatRateShippingMethod.php:159
+msgid "The Price Per Item doesn't have to be set, but it does have to be numeric"
+msgstr "Hinta per tuote ei ole asetettuna, mutta sen pitää olla numeerinen"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:42
+msgid "The email address you have entered has already been used to create an account. Please login first or enter a different email address."
+msgstr "Antamasi sähköpostiosoite on jo käytetty asiakastilin luomiseen. Ole hyvä ja kirjaudu ensin tai anna toinen sähköpostiosoite."
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:129
+msgid "You must enter a valid email address"
+msgstr "Syötä toimiva sähköpostiosoite"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:135
+msgid "You must enter a first name"
+msgstr "Syötä etunimi"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:138
+msgid "Your First Name is quite long. Please keep it under 30 characters"
+msgstr "Etunimen oltava alle 30 merkkiä."
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:141
+msgid "You must enter a Last Name"
+msgstr "Syötä sukunimi"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:144
+msgid "That is a long Last Name. Please keep it under 30 characters"
+msgstr "Sukunimen on oltava alle 30 merkkiä"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:147
+msgid "You must enter an address"
+msgstr "Syötä osoite"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:150
+msgid "That is a long street name. Please keep it under 50 characters"
+msgstr "Kadunnimen oltava alle 50 merkkiä"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:153
+msgid "You must enter a Country"
+msgstr "Syötä maa"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:156
+msgid "You did not select a Country from the list."
+msgstr "Valitse maa listasta."
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:159
+msgid "You must enter a City"
+msgstr "Syötä kaupunki"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:162
+msgid "You must enter a valid City"
+msgstr "Syötä oikea kaupunki"
+
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:165
+#: packages/community_store/src/CommunityStore/Utilities/Checkout.php:168
+msgid "You must enter a valid Postal Code"
+msgstr "Syötä oikea postinumero"
+
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:71
+msgid "Product Detail"
+msgstr "Tuotteen tiedot"
+
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:256
+msgid "Registered Customer in your store"
+msgstr "Kauppaasi rekisteröitynyt asiakas"
+
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:269
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:318
+msgid "Store Customer Info"
+msgstr "Asiakkaan tiedot"
+
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:409
+msgid "Incomplete"
+msgstr "Epätäydellinen"
+
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:410
+msgid "Pending"
+msgstr "Kesken"
+
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:411
+msgid "Processing"
+msgstr "Käsittelyssä"
+
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:412
+msgid "Shipped"
+msgstr "Lähetetty"
+
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:413
+msgid "Complete"
+msgstr "Valmis"
+
+#: packages/community_store/src/CommunityStore/Utilities/Installer.php:431
+msgid "Default"
+msgstr "Oletus"
+
+#: packages/community_store/src/CommunityStore/Utilities/ProductFinder.php:35
+msgid "I can't find a product by that name"
+msgstr "Tämän nimistä tuotetta ei löydy"
