@@ -27,19 +27,19 @@ msgstr ""
 
 #: packages/community_store/controller.php:27
 msgid "Community Store"
-msgstr ""
+msgstr "Community Store"
 
 #: packages/community_store/controller.php:154
 msgid "Quantity must be greater than zero"
-msgstr ""
+msgstr "Määrän pitää olla suurempi kuin nolla"
 
 #: packages/community_store/blocks/community_product_list/controller.php:24
 msgid "Add a Product List for Community Store"
-msgstr ""
+msgstr "Lisää tuote Community Storeen"
 
 #: packages/community_store/blocks/community_product_list/controller.php:29
 msgid "Product List"
-msgstr ""
+msgstr "Tuoteluettelo"
 
 #: packages/community_store/blocks/community_product_list/controller.php:272
 msgid "A page must be selected"
@@ -65,11 +65,11 @@ msgstr ""
 #: packages/community_store/single_pages/dashboard/store.php:147
 #: packages/community_store/src/CommunityStore/Utilities/Installer.php:70
 msgid "Products"
-msgstr ""
+msgstr "Tuotteet"
 
 #: packages/community_store/blocks/community_product_list/form.php:11
 msgid "List Products"
-msgstr ""
+msgstr "Listaa tuotteet"
 
 #: packages/community_store/blocks/community_product_list/form.php:13
 msgid "All"
