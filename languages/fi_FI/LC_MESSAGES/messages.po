@@ -27,27 +27,27 @@ msgstr ""
 
 #: packages/community_store/controller.php:27
 msgid "Community Store"
-msgstr ""
+msgstr "Community Store"
 
 #: packages/community_store/controller.php:154
 msgid "Quantity must be greater than zero"
-msgstr ""
+msgstr "Määrän pitää olla suurempi kuin nolla"
 
 #: packages/community_store/blocks/community_product_list/controller.php:24
 msgid "Add a Product List for Community Store"
-msgstr ""
+msgstr "Lisää tuote Community Storeen"
 
 #: packages/community_store/blocks/community_product_list/controller.php:29
 msgid "Product List"
-msgstr ""
+msgstr "Tuoteluettelo"
 
 #: packages/community_store/blocks/community_product_list/controller.php:272
 msgid "A page must be selected"
-msgstr ""
+msgstr "Sivu pitää valita"
 
 #: packages/community_store/blocks/community_product_list/controller.php:276
 msgid "Number of Products must be a whole number"
-msgstr ""
+msgstr "Tuotteiden määrän pitää olla kokonaisluku"
 
 #: packages/community_store/blocks/community_product_list/form.php:8
 #: packages/community_store/single_pages/dashboard/store/products/groups.php:22
@@ -65,11 +65,11 @@ msgstr ""
 #: packages/community_store/single_pages/dashboard/store.php:147
 #: packages/community_store/src/CommunityStore/Utilities/Installer.php:70
 msgid "Products"
-msgstr ""
+msgstr "Tuotteet"
 
 #: packages/community_store/blocks/community_product_list/form.php:11
 msgid "List Products"
-msgstr ""
+msgstr "Listaa tuotteet"
 
 #: packages/community_store/blocks/community_product_list/form.php:13
 msgid "All"
@@ -77,38 +77,38 @@ msgstr "Kaikki"
 
 #: packages/community_store/blocks/community_product_list/form.php:14
 msgid "Under current page"
-msgstr ""
+msgstr "Tällä sivulla"
 
 #: packages/community_store/blocks/community_product_list/form.php:15
 msgid "Under current page and child pages"
-msgstr ""
+msgstr "Tällä sivulla ja sen tytärsivuilla"
 
 #: packages/community_store/blocks/community_product_list/form.php:16
 msgid "Under a specified page"
-msgstr ""
+msgstr "Määritellyllä sivulla"
 
 #: packages/community_store/blocks/community_product_list/form.php:17
 msgid "Under a specified page and child pages"
-msgstr ""
+msgstr "Erityisellä sivulla ja tytärsivuilla"
 
 #: packages/community_store/blocks/community_product_list/form.php:18
 msgid "Related to product displayed on this page"
-msgstr ""
+msgstr "Samankaltainen tuote kuin tällä sivulla esiintyvä"
 
 #: packages/community_store/blocks/community_product_list/form.php:19
 msgid "Related to a specified product"
-msgstr ""
+msgstr "Samankaltainen kuin määritelty tuote"
 
 #: packages/community_store/blocks/community_product_list/form.php:33
 #: packages/community_store/single_pages/dashboard/store/products/groups.php:82
 #: packages/community_store/single_pages/dashboard/store/products.php:1325
 msgid "Search for a Product"
-msgstr ""
+msgstr "Tuotteiden etsiminen"
 
 #: packages/community_store/blocks/community_product_list/form.php:37
 #: packages/community_store/single_pages/dashboard/store/settings.php:139
 msgid "Sort Order"
-msgstr ""
+msgstr "Lajittelujärjestys"
 
 #: packages/community_store/blocks/community_product_list/form.php:39
 msgid "Alphabetical"
@@ -116,7 +116,7 @@ msgstr "Aakkosjärjestys"
 
 #: packages/community_store/blocks/community_product_list/form.php:40
 msgid "Alphabetical, reversed"
-msgstr ""
+msgstr "Käänteinen aakkosjärjestys"
 
 #: packages/community_store/blocks/community_product_list/form.php:41
 #: packages/community_store/single_pages/dashboard/store/products.php:440
@@ -125,19 +125,19 @@ msgstr "Lisätty"
 
 #: packages/community_store/blocks/community_product_list/form.php:42
 msgid "Price Ascending"
-msgstr ""
+msgstr "Hinnat alkaen alimmasta"
 
 #: packages/community_store/blocks/community_product_list/form.php:43
 msgid "Price Descending"
-msgstr ""
+msgstr Hinnat alkaen ylimmästä"
 
 #: packages/community_store/blocks/community_product_list/form.php:44
 msgid "Best Sellers"
-msgstr ""
+msgstr "Suosituimmat"
 
 #: packages/community_store/blocks/community_product_list/form.php:45
 msgid "Related Products Order"
-msgstr ""
+msgstr "Samankaltaisten tuotteiden järjestys"
 
 #: packages/community_store/blocks/community_product_list/form.php:46
 msgid "Category Sort Order"
@@ -161,13 +161,13 @@ msgstr "Suodatus"
 
 #: packages/community_store/blocks/community_product_list/form.php:74
 msgid "Filter by Product Groups"
-msgstr ""
+msgstr "Lajiteltu tuoteryhmittäin"
 
 #: packages/community_store/blocks/community_product_list/form.php:78
 #: packages/community_store/single_pages/dashboard/store/discounts.php:360
 #: packages/community_store/single_pages/dashboard/store/products.php:505
 msgid "Select Product Groups"
-msgstr ""
+msgstr "Valitse tuoteryhmät"
 
 #: packages/community_store/blocks/community_product_list/form.php:91
 msgid "Matching"
@@ -262,15 +262,15 @@ msgstr ""
 
 #: packages/community_store/blocks/community_product_list/view.php:31
 msgid "Sort by"
-msgstr ""
+msgstr "Lajittelu:"
 
 #: packages/community_store/blocks/community_product_list/view.php:35
 msgid "price, lowest to highest"
-msgstr ""
+msgstr "hinta halvimmasta kalleimpaan"
 
 #: packages/community_store/blocks/community_product_list/view.php:36
 msgid "price, highest to lowest"
-msgstr ""
+msgstr "hinta kalleimmasta halvimpaan"
 
 #: packages/community_store/blocks/community_product_list/view.php:128
 #: packages/community_store/blocks/community_product_list/view.php:359
@@ -278,29 +278,29 @@ msgstr ""
 #: packages/community_store/blocks/community_product/view.php:438
 #: packages/community_store/elements/product_modal.php:122
 msgid "was"
-msgstr ""
+msgstr "oli"
 
 #: packages/community_store/blocks/community_product_list/view.php:151
 #: packages/community_store/blocks/community_product/view.php:81
 msgid "Enter Other Amount"
-msgstr ""
+msgstr "Anna joku muu määrä"
 
 #: packages/community_store/blocks/community_product_list/view.php:155
 #: packages/community_store/blocks/community_product/view.php:86
 #: packages/community_store/single_pages/dashboard/store/orders.php:199
 #: packages/community_store/controllers/single_page/dashboard/store/reports/products.php:64
 msgid "Amount"
-msgstr ""
+msgstr "Määrä"
 
 #: packages/community_store/blocks/community_product_list/view.php:169
 #: packages/community_store/blocks/community_product/view.php:102
 msgid "minimum"
-msgstr ""
+msgstr "vähintään"
 
 #: packages/community_store/blocks/community_product_list/view.php:176
 #: packages/community_store/blocks/community_product/view.php:109
 msgid "maximum"
-msgstr ""
+msgstr "enintään"
 
 #: packages/community_store/blocks/community_product_list/view.php:193
 msgid "More Details"
@@ -317,7 +317,7 @@ msgstr "Lisätietoja"
 #: packages/community_store/elements/product_modal.php:29
 #: packages/community_store/controllers/single_page/dashboard/store/reports/products.php:58
 msgid "Quantity"
-msgstr ""
+msgstr "Määrä"
 
 #: packages/community_store/blocks/community_product_list/view.php:246
 #: packages/community_store/blocks/community_product/view.php:239
@@ -331,33 +331,33 @@ msgstr "Pakollinen"
 #: packages/community_store/blocks/community_product_list/view.php:265
 #: packages/community_store/blocks/community_product/view.php:259
 msgid "out of stock"
-msgstr ""
+msgstr "loppuunmyyty"
 
 #: packages/community_store/blocks/community_product_list/view.php:300
 #: packages/community_store/blocks/community_product/view.php:305
 msgid "no"
-msgstr ""
+msgstr "ei"
 
 #: packages/community_store/blocks/community_product_list/view.php:301
 #: packages/community_store/blocks/community_product/view.php:308
 msgid "yes"
-msgstr ""
+msgstr "kyllä"
 
 #: packages/community_store/blocks/community_product_list/view.php:315
 #: packages/community_store/blocks/community_product/view.php:328
 #: packages/community_store/elements/product_modal.php:60
 msgid "Add to Cart"
-msgstr ""
+msgstr "Lisää ostoskoriin"
 
 #: packages/community_store/blocks/community_product_list/view.php:316
 #: packages/community_store/blocks/community_product/view.php:331
 #: packages/community_store/elements/product_modal.php:61
 msgid "Out of Stock"
-msgstr ""
+msgstr "Loppuunmyyty"
 
 #: packages/community_store/blocks/community_product_list/view.php:413
 msgid "Empty Product List"
-msgstr ""
+msgstr "Tyhjennä tuoteluettelo"
 
 #: packages/community_store/blocks/community_product/controller.php:22
 msgid "Add a Product to the Page"
@@ -371,11 +371,11 @@ msgstr ""
 #: packages/community_store/elements/cart_modal.php:45
 #: packages/community_store/controllers/single_page/dashboard/store/reports/products.php:57
 msgid "Product"
-msgstr ""
+msgstr "Tuote"
 
 #: packages/community_store/blocks/community_product/form.php:6
 msgid "A selected product"
-msgstr ""
+msgstr "Valittu tuote"
 
 #: packages/community_store/blocks/community_product/form.php:6
 msgid "Product associated with this page"
@@ -383,15 +383,15 @@ msgstr ""
 
 #: packages/community_store/blocks/community_product/form.php:11
 msgid "Select Product"
-msgstr ""
+msgstr "Valitse tuote"
 
 #: packages/community_store/blocks/community_product/form.php:14
 msgid "Display Options"
-msgstr ""
+msgstr "Näytä vaihtoehdot"
 
 #: packages/community_store/blocks/community_product/form.php:21
 msgid "Show Product Name"
-msgstr ""
+msgstr "Näytä tuotteen nimi"
 
 #: packages/community_store/blocks/community_product/form.php:27
 msgid "Show Short Description"
@@ -403,15 +403,15 @@ msgstr ""
 
 #: packages/community_store/blocks/community_product/form.php:39
 msgid "Show Price"
-msgstr ""
+msgstr "Näytä hinta"
 
 #: packages/community_store/blocks/community_product/form.php:45
 msgid "Show Weight"
-msgstr ""
+msgstr "Näytä paino"
 
 #: packages/community_store/blocks/community_product/form.php:53
 msgid "Show Product Image"
-msgstr ""
+msgstr "Näytä tuotteen kuva"
 
 #: packages/community_store/blocks/community_product/form.php:59
 msgid "Show \"Add to Cart\" Button"
